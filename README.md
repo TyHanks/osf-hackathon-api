@@ -24,7 +24,7 @@ You can install FileApi by cloning the repo need to have python 3.0+ installed.
 
 ``` bash
 git clone git@github.com:TyHanks/osf-hackathon-api.git
-#or
+[]: # (or)
 git clone https://github.com/TyHanks/osf-hackathon-api.git
 ```
 
@@ -35,6 +35,8 @@ Start http server using the following
 ```bash
 cd osf-hackathon-api/src/fileapi_package_THanksDev
 python fileapi.py
+# OUTPUT
+Starting server localhost on port 8080...
 ```
 
 Please try sending GET, POST, and DELETE requests by opening a new terminal while the server is running. Use the following commands as a reference. Ensure that you uncomment or modify the 'example.py' file to perform various tests.
@@ -42,6 +44,14 @@ Please try sending GET, POST, and DELETE requests by opening a new terminal whil
 ```bash
 cd test
 python example.py
+```
+
+EXAMPLES:
+```bash
+'data.json empty'
+test.get_data()
+
+
 ```
 
 ## License
