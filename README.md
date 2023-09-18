@@ -23,9 +23,9 @@ This script creates a basic HTTP server with routes for handling GET, POST, and 
 You can install FileApi by cloning the repo need to have python 3.0+ installed.
 
 ``` bash
-git@github.com:TyHanks/osf-hackathon-api.git
+git clone git@github.com:TyHanks/osf-hackathon-api.git
 #or
-https://github.com/TyHanks/osf-hackathon-api.git
+git clone https://github.com/TyHanks/osf-hackathon-api.git
 ```
 
 ## Usage
