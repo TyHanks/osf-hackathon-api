@@ -24,7 +24,7 @@ You can install FileApi by cloning the repo need to have python 3.0+ installed.
 
 ``` bash
 git clone git@github.com:TyHanks/osf-hackathon-api.git
-[]: # (or)
+{::comment}or{:/comment}
 git clone https://github.com/TyHanks/osf-hackathon-api.git
 ```
 
